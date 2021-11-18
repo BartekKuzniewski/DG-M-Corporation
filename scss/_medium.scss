@@ -1,8 +1,8 @@
 @media (min-width: 768px) {
 	.cards {
-        &__box {
-            padding: 10em 2em;
-        }
+		&__box {
+			padding: 10em 2em;
+		}
 
 		&__card {
 			&--one {
@@ -36,7 +36,6 @@
 			margin-top: 0;
 			margin-bottom: 0;
 		}
-
 	}
 
 	.newsletter {
@@ -48,7 +47,6 @@
 
 		&__text {
 			margin-bottom: 0;
-
 		}
 
 		&__form {
@@ -58,6 +56,17 @@
 
 			input {
 				margin-bottom: 0;
+			}
+		}
+	}
+
+	.gallery {
+		grid-template-columns: repeat(4, 1fr);
+
+		img {
+
+			&:nth-child(odd) {
+				display: block;
 			}
 		}
 	}
